@@ -18,6 +18,5 @@ public class Connect {
             e.printStackTrace();
         }
         return connection;
-        //123123123123
     }
 }

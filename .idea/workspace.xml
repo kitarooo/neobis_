@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="affed520-f78b-4056-88a5-23197e2dba22" name="Changes" comment="create new rep">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/connection/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/connection/Connect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week2/dao/ClientsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/dao/ClientsDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week2/dao/ProductsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/dao/ProductsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week2/pojo/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Clients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/dao/PurchasesDAO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week2/pojo/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/pojo/Purchases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Purchases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/create.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +99,7 @@
       <workItem from="1698153470280" duration="11494000" />
       <workItem from="1698208213782" duration="2492000" />
       <workItem from="1698211938363" duration="6159000" />
+      <workItem from="1698233297166" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="create new rep">
       <option name="closed" value="true" />

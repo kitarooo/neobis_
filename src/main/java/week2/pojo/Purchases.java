@@ -4,27 +4,37 @@ import java.util.List;
 
 public class Purchases {
     private long purchasesId;
-    private List<Products> products;
+    private int productId;
+    private int clientId;
 
-    public Purchases(long orderId, List<Products> products) {
+    public Purchases(long orderId, int productId, int clientId) {
         this.purchasesId = orderId;
-        this.products = products;
+        this.productId = productId;
+        this.clientId = clientId;
     }
 
-    public long getOrderId() {
+    public long getPurchasesId() {
         return purchasesId;
     }
 
-    public void setOrderId(long orderId) {
-        this.purchasesId = orderId;
+    public void setPurchasesId(long purchasesId) {
+        this.purchasesId = purchasesId;
     }
 
-    public List<Products> getProducts() {
-        return products;
+    public int getProductId() {
+        return productId;
     }
 
-    public void setProducts(List<Products> products) {
-        this.products = products;
+    public void setProductId(int productId) {
+        this.productId = productId;
+    }
+
+    public int getClientId() {
+        return clientId;
+    }
+
+    public void setClientId(int clientId) {
+        this.clientId = clientId;
     }
 }
 

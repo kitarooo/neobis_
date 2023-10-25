@@ -6,26 +6,26 @@ import java.sql.Connection;
 
 public class Main {
     public static void main(String[] args) {
-        ClientsDAO clientsDAO = new ClientsDAO();
         Connection connection = Connect.connection();
+        //CRUD with table - clients
+        ClientsDAO clientsDAO = new ClientsDAO();
         //add new client
-        //clientsDAO.insertClient(connection, 1, "Jack");
+        //clientsDAO.addClient(connection, 1, "James");
 
         //update client_name
         //clientsDAO.updateClientById(connection,1,"Joel");
 
+        //SELECT * FROM clients
+        //clientsDAO.selectAllClient(connection);
+
         //delete client by id
         //clientsDAO.deleteClientById(connection,1);
 
-        //SELECT * FROM clients
-        //clientsDAO.checkAllClient(connection);
 
-
-
-
+        //CRUD with table - products
         ProductsDAO productsDAO = new ProductsDAO();
         //add new product
-        //productsDAO.insertProduct(connection,1,"cola", 500);
+        //productsDAO.addProduct(connection,1,"cola", 500);
 
         //update product by id
         //productsDAO.updateProductById(connection,1,"cola",550);
@@ -34,6 +34,6 @@ public class Main {
         //productsDAO.deleteProductById(connection,1);
 
         //check all products
-        //productsDAO.checkAllProducts(connection);
+        //productsDAO.selectAllProducts(connection);
     }
 }

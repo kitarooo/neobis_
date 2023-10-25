@@ -1,9 +1,12 @@
 package week2.pojo;
 
 public class Products {
+    private long productId;
     private String name;
     private int price;
-    private long productId;
+
+    public Products() {
+    }
 
     public Products(String name, int price, long productId) {
         this.name = name;
@@ -17,9 +20,6 @@ public class Products {
 
     public void setProductId(long productId) {
         this.productId = productId;
-    }
-
-    public Products() {
     }
 
     public String getName() {

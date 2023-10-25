@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProductsDAO {
-    public void insertProduct(Connection connection, int productId, String productName, int productPrice) {
+    public void addProduct(Connection connection, int productId, String productName, int productPrice) {
         String insertSQL = "INSERT INTO products (product_id, product_name, product_price) VALUES (?, ?, ?)";
 
         try {
@@ -66,7 +66,7 @@ public class ProductsDAO {
         }
     }
 
-    public List<Products> checkAllProducts(Connection connection) {
+    public List<Products> selectAllProducts(Connection connection) {
         String checkAllProducts = "SELECT * FROM products";
         List<Products> products = new ArrayList<>();
 
@@ -88,6 +88,7 @@ public class ProductsDAO {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
         return products;
     }
 }

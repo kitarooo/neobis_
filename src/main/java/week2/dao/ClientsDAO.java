@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ClientsDAO {
-    public void insertClient(Connection connection, int clientId, String clientName) {
+    public void addClient(Connection connection, int clientId, String clientName) {
         String insertSQL = "INSERT INTO clients (client_id, client_name) VALUES (?, ?)";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(insertSQL);
@@ -61,7 +61,7 @@ public class ClientsDAO {
         }
     }
 
-    public List<Clients> checkAllClient(Connection connection) {
+    public List<Clients> selectAllClient(Connection connection) {
         String checkSQL = "SELECT * FROM clients";
         List<Clients> clients = new ArrayList<>();
 
@@ -76,12 +76,13 @@ public class ClientsDAO {
 
                 clients.add(client);
 
-                System.out.println("Client id: " + client.getClientId() + ", client name: " + client.getName());
+                System.out.println("Client id: " + client.getClientId() + ", name: " + client.getName());
             }
         } catch (SQLException e) {
             System.out.println("Error");
             throw new RuntimeException(e);
         }
+
         return clients;
     }
 }

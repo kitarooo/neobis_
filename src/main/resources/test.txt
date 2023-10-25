@@ -1,0 +1,9 @@
+test project 2
+
+
+--Скачиваем и настраиваем PostgreSql(скрипт со созданием бд в папке resources/create.sql)
+--Подключаем JDBC из Maven repository в pom.xml и соединяем проект с бд
+--В week2/connection/Connect: идет соединение с бд
+--В папке dao: описаны методы CRUD
+--В main описаны CRUD методы
+--Проверить CRUD методы (создание, чтение, изменение и удаление) и посмотреть результаты в pgAdmin4
