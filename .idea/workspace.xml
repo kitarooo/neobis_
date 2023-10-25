@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="affed520-f78b-4056-88a5-23197e2dba22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/Banknotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/BanknotesAndCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/ColumnInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/GameTimeWithMinutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/Grenais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/LogicalSequence2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/PupulationIncrease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/SequenceIJ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/TriangleTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/WeightedAverages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/connection/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/dao/ClientsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/dao/ProductsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/dao/PurchasesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Clients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Purchases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="affed520-f78b-4056-88a5-23197e2dba22" name="Changes" comment="create new rep">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/dao/ClientsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/dao/ClientsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/dao/ProductsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/dao/ProductsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/pojo/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Clients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/pojo/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/pojo/Products.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,10 +93,24 @@
       <workItem from="1698152747203" duration="665000" />
       <workItem from="1698153470280" duration="11494000" />
       <workItem from="1698208213782" duration="2492000" />
+      <workItem from="1698211938363" duration="6159000" />
     </task>
+    <task id="LOCAL-00001" summary="create new rep">
+      <option name="closed" value="true" />
+      <created>1698212105702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698212105702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create new rep" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new rep" />
   </component>
 </project>

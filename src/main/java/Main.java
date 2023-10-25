@@ -1,11 +1,8 @@
 import week2.connection.Connect;
 import week2.dao.ClientsDAO;
+import week2.dao.ProductsDAO;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
-import static week2.connection.Connect.connection;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +19,21 @@ public class Main {
 
         //SELECT * FROM clients
         //clientsDAO.checkAllClient(connection);
+
+
+
+
+        ProductsDAO productsDAO = new ProductsDAO();
+        //add new product
+        //productsDAO.insertProduct(connection,1,"cola", 500);
+
+        //update product by id
+        //productsDAO.updateProductById(connection,1,"cola",550);
+
+        //delete prodct by id
+        //productsDAO.deleteProductById(connection,1);
+
+        //check all products
+        //productsDAO.checkAllProducts(connection);
     }
 }

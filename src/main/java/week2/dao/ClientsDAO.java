@@ -1,6 +1,5 @@
 package week2.dao;
 
-import week2.connection.Connect;
 import week2.pojo.Clients;
 
 import java.sql.Connection;
@@ -53,11 +52,8 @@ public class ClientsDAO {
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(deleteSQL);
-
             preparedStatement.setInt(1, clientId);
-
-            int check = preparedStatement.executeUpdate();
-
+            preparedStatement.executeUpdate();
 
             System.out.println("Данные с id: " + clientId + " были успешно удалены");
         } catch (SQLException e) {
@@ -68,18 +64,16 @@ public class ClientsDAO {
     public List<Clients> checkAllClient(Connection connection) {
         String checkSQL = "SELECT * FROM clients";
         List<Clients> clients = new ArrayList<>();
+
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(checkSQL);
-            //preparedStatement.setInt(1,clientId);
-
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
                 Clients client = new Clients();
                 client.setClientId(resultSet.getInt("client_id"));
                 client.setName(resultSet.getString("client_name"));
-                //int retrievedClientId = resultSet.getInt("client_id");
-                //String retrievedClientName = resultSet.getString("client_name");
+
                 clients.add(client);
 
                 System.out.println("Client id: " + client.getClientId() + ", client name: " + client.getName());

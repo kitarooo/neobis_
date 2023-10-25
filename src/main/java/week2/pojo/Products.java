@@ -11,6 +11,17 @@ public class Products {
         this.productId = productId;
     }
 
+    public long getProductId() {
+        return productId;
+    }
+
+    public void setProductId(long productId) {
+        this.productId = productId;
+    }
+
+    public Products() {
+    }
+
     public String getName() {
         return name;
     }
