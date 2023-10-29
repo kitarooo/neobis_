@@ -1,25 +1,26 @@
-import week2.connection.Connect;
-import week2.dao.ClientsDAO;
+import week2.dao.UserDAO;
 import week2.dao.ProductsDAO;
-
-import java.sql.Connection;
 
 public class Main {
     public static void main(String[] args) {
-        Connection connection = Connect.connection();
         //CRUD with table - clients
-        ClientsDAO clientsDAO = new ClientsDAO();
-        //add new client
-        //clientsDAO.addClient(connection, 1, "James");
+        UserDAO userDAO = new UserDAO();
+        //add new user
+        //userDAO.addUser("user", "Joel","McCall","adfasadf@.mail.ru", "87770983092", "qwerty");
 
         //update client_name
-        //clientsDAO.updateClientById(connection,1,"Joel");
+        //userDAO.updateUserById(2,"James","Stilinckiy","244242@mail.ru", "87082980762", "ytrewq");
 
         //SELECT * FROM clients
-        //clientsDAO.selectAllClient(connection);
+        //userDAO.selectAllClient();
 
         //delete client by id
-        //clientsDAO.deleteClientById(connection,1);
+        userDAO.deleteUserById(6);
+        userDAO.deleteUserById(7);
+        userDAO.deleteUserById(9);
+        userDAO.deleteUserById(10);
+        userDAO.deleteUserById(11);
+        userDAO.deleteUserById(12);
 
 
         //CRUD with table - products

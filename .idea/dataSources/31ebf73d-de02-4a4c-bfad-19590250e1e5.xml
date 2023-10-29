@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="DBshop@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.48">
+    <root id="1">
+      <ServerVersion>15.4</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="postgres"/>
+    <database id="3" parent="1" name="first_db"/>
+    <database id="4" parent="1" name="template1"/>
+    <database id="5" parent="1" name="template0"/>
+    <database id="6" parent="1" name="instazoo"/>
+    <database id="7" parent="1" name="northwind"/>
+    <database id="8" parent="1" name="instazooo"/>
+    <database id="9" parent="1" name="testdb"/>
+    <database id="10" parent="1" name="ShopDB"/>
+    <database id="11" parent="1" name="DBshop">
+      <Current>1</Current>
+    </database>
+    <schema id="12" parent="11" name="information_schema"/>
+    <schema id="13" parent="11" name="pg_catalog"/>
+    <schema id="14" parent="11" name="public">
+      <Current>1</Current>
+    </schema>
+  </database-model>
+</dataSource>
